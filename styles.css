@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	display:flex;
+	flex:wrap;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background-color:#444444;
+	margin:1.5rem;
+}
+.animal-photos div{
+	display:flex;
+	flex:wrap;
+	gap:20px;
+}
+.animal-photos div img{
+	border-radius:10px;
+}
